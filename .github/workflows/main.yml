@@ -44,4 +44,4 @@ jobs:
       - name: Login to Upyun
         run: ./upx login ${{ secrets.KJM }} ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }}
       - name: Update to Upyun
-        run: ./upx sync ./public /
+        run: ./upx sync ./dist /
