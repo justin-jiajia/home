@@ -22,9 +22,25 @@ const PAGES_DATA = [
   {
     pageId: 1,
     sortId: 1,
+    title: "Bing每日一图",
+    subtitle: "爬取Bing每日一图展示",
+    url: "https://bing-picture.hijiajia.xyz/",
+    icon: ""
+  },
+  {
+    pageId: 1,
+    sortId: 1,
     title: "嘉嘉的笔记本",
     subtitle: "我的第一个Flask应用！",
     url: "https://notes.hijiajia.xyz/",
+    icon: ""
+  },
+  {
+    pageId: 1,
+    sortId: 1,
+    title: "碳排放记录仪",
+    subtitle: "快来试一试！",
+    url: "https://co2.hijiajia.xyz/",
     icon: ""
   },
   {
@@ -38,9 +54,25 @@ const PAGES_DATA = [
   {
     pageId: 3,
     sortId: 3,
+    title: "Bing每日一图-API",
+    subtitle: "正常用户请使用前端",
+    url: "http://picture.api.hijiajia.xyz/",
+    icon: ""
+  },
+  {
+    pageId: 3,
+    sortId: 3,
+    title: "CO2-API",
+    subtitle: "正常用户请使用前端",
+    url: "http://co2.api.hijiajia.xyz/",
+    icon: ""
+  },
+  {
+    pageId: 3,
+    sortId: 3,
     title: "你的记录仪-API",
     subtitle: "正常用户请使用前端",
-    url: "http://yr.hijiajia.xyz/",
+    url: "http://yr.api.hijiajia.xyz/",
     icon: ""
   },
 ]; // 网站分类列表，请按照API.md中'/getPages'接口中返回的data格式填写
