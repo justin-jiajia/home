@@ -16,7 +16,7 @@ const SORT_DATA = [
   { sortId: 3, title: "Web Api"}
 ]; // 网站分类列表，请按照API.md中'/getSort'接口中返回的data格式填写
 
-const RECORD_NUMBER = ""; // 网站备案号，留空不显示
+const RECORD_NUMBER = "苏ICP备2022041299号"; // 网站备案号，留空不显示
 
 const PAGES_DATA = [
   {
